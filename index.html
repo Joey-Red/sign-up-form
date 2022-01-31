@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <script defer src="./script.js"></script>
+  <title>Bloop</title>
+</head>
+
+<div class="container">
+  <div class="sidebar">
+    <div class="text-container">
+      <h2> &lt;FISH  <i class="fas fa-fish"></i>/&gt;</h2>
+      <div class="cross"></div>
+    </div>
+    <div class="bottom-text">
+      <p>Photo by: Francesco Ungaro</p>
+    </div>
+  </div>
+
+  <main-content>
+    <div class="header">
+      <h3>This is not a real service! You know how much you would love to do this,<br> see the bottom of the ocean and all of the life exists down there.<br> Sign up <italic>Now</italic> to get started!</h3>
+      <h3 id="emph">You know you want to.</h3>
+      <h3 id="l-align">Let's get started!</h3>
+    </div>
+    <div class="form" id="form">
+      <form action="">
+        <ul class="wrapper">
+        <li class="column-1">
+          <label for="firstName">First Name:</label>
+          <input type="text" name="firstName" id="firstName" placeholder="Jane" required>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="janesmith@123.com" required>
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" placeholder="Password" required>
+        </li>
+        <li class="column-2">
+          <label for="lastName">Last Name:</label>
+          <input type="text" name="firstName" id="lastName" placeholder="Smith" class="focus" required>
+        
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" name="phoneNumber" id="phoneNumber" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="123-456-7890" required>
+
+          <label for="password">Confirm Password:</label>
+          <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Password" required>
+        </li>
+        <li class="column-3">
+        </li>
+        </ul>
+        <button type="submit" class="button">Create Account</button>
+      </form>
+      
+    </div>
+    <p>Already have an account? <italic2>Log in</italic></p>
+</main-content>
+
+
+</div>
+
+
+</html>
